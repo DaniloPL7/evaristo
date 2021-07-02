@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Don Evaristo</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="cuerpo">
+        <div class="ojoDerecho"></div> 
+        <div class="ojoIzquierdo"></div>
+          <div class="sombrero1"></div>
+          <div class="sombrero"></div>
+          <div class="nariz"></div>
+          <div class="sonrisa"></div>
+          <div class="traje"></div>
+          <div class="pieDerecho"></div>
+          <div class="pieIzquierdo"></div>
+    </div>
+  </body>
+</html>
+
+
+.cuerpo {
+  width: 126px;
+  height: 180px;
+  background-color: #f9f9b0;
+  -moz-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  -webkit-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  margin:300px 600px;
+}
+
+.ojoDerecho {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  border-radius: 50%;
+  background: #080808;
+  margin: 50px 65px;
+}
+.ojoIzquierdo {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  border-radius: 50%;
+  background: #131311;
+  margin: 50px 40px;
+}
+.sombrero1 {
+  width: 120px;
+  height: 30px;
+  border: 2px solid #555;
+  background: #0e0e04;
+  -moz-border-radius: 100px 100px 0 0;
+  -webkit-border-radius: 100px 100px 0 0;
+  border-radius: 100px 100px 0 0;
+}
+.sombrero {
+  width: 120px;
+  height: 5px;
+  border: 2px solid #555;
+  background: #ebebe3;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.nariz {
+  width: 35px;
+  height: 20px;
+  border-radius: 50%;
+  background: #f5f57c;
+  margin: 20px 40px;
+}
+.sonrisa {
+  width: 35px;
+  height: 5px;
+  background: #11110f;
+  border-radius: 10px/50px;
+  margin: 5px 40px;
+}
+.traje {
+  width: 120px;
+  height: 62px;
+  border: 2px solid #555;
+  background: #050101;
+  border-radius: 100px 100px 0 0;
+  transform: rotate(180deg);
+}
+.pieDerecho{
+  width: 100px;
+    height:30px;
+    -moz-border-radius: 0 50% / 0 100%;
+    -webkit-border-radius: 0 50% / 0 100%;
+    border-radius: 0 50% / 0 100%;
+    background: #433503;
+    border: 3px solid #555;
+    margin: -5px 60px
+}
+.pieIzquierdo{
+  width: 110px;
+   height:30px;
+    -moz-border-radius: 0 50% / 0 100%;
+    -webkit-border-radius: 0 50% / 0 100%;
+    border-radius: 0 50% / 0 100%;
+    background: #433503;
+    border: 3px solid #555;
+ margin:-40px -40px;
+  transform: rotate(180deg);
+}
